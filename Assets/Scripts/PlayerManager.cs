@@ -1,7 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Sample : MonoBehaviour {
+public class PlayerManager : MonoBehaviour {
+
+    public int score;
+    public int health;
+    public int Maxhealth;
+    public int Coin;
+    
+
 
 	// Use this for initialization
 	void Start () {
