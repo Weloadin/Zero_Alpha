@@ -5,7 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - RotateTrigger
-  - New Tag
+  - OrangePad
+  - SolutionPad
   layers:
   - Default
   - TransparentFX

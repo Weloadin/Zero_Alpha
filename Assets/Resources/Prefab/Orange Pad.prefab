@@ -30,7 +30,7 @@ GameObject:
   - 23: {fileID: 2341198}
   - 102: {fileID: 10220810}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Number
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

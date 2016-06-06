@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
 public class OrangePad : MonoBehaviour {
 
     public enum OrangePadState
@@ -10,22 +11,26 @@ public class OrangePad : MonoBehaviour {
         ReachGoal,
         Lose
     };
-
     private OrangePadState currentState;
+    public bool isAddition, isSubtraction, isMultiply;
+
+   
+
+
+
     private int padSpeed = 2 ;
+    public  int givenNumber;
+   
+   
 
-
-    protected void OnDestroy()
+    
+    void Start()
     {
-        
-
-
+        gameObject.transform.GetChild(0).GetComponent<TextMesh>().text = givenNumber.ToString();
     }
 
-    void Awake()
-    {
-        currentState = OrangePadState.Idle;                
-    }
+    
+   
 
 
 
@@ -52,7 +57,8 @@ public class OrangePad : MonoBehaviour {
                 }
                 break;
             case OrangePadState.Lose:
-                { }
+                {
+                }
                 break;
         }
     }
@@ -63,5 +69,14 @@ public class OrangePad : MonoBehaviour {
         {
             this.transform.rotation = other.GetComponentInParent<Transform>().rotation;
         }
+        if(other.CompareTag("SolutionPad"))
+        {
+            if(isAddition)
+            {
+                CalculationManager.Calculate(this.gameObject, other.gameObject, CalculationManager.Calculation.Add);
+                isAddition = false;
+            }
+        }
+        
     }
 }
