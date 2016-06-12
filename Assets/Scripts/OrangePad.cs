@@ -48,7 +48,7 @@ public class OrangePad : MonoBehaviour {
                 break;
             case OrangePadState.Move:
                 {
-                    this.transform.position -= this.transform.up * padSpeed * Time.deltaTime;
+                    this.transform.position += this.transform.right * padSpeed * Time.deltaTime;
                 }
                 break;
             case OrangePadState.ReachGoal:
@@ -65,10 +65,15 @@ public class OrangePad : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.CompareTag("RotateTrigger"))
-        {
-            this.transform.rotation = other.GetComponentInParent<Transform>().rotation;
-        }
+        //if(other.CompareTag("RotateTrigger"))
+        //{
+        //    float Distance = Vector3.Distance(this.gameObject.transform.position, other.gameObject.transform.position);
+        //    Debug.Log(Distance);
+        //    if(Distance <= 0 )
+        //    {
+        //        this.transform.rotation = other.GetComponentInParent<Transform>().rotation;
+        //    }
+        //}
         if(other.CompareTag("SolutionPad"))
         {
             if(isAddition)
@@ -79,4 +84,18 @@ public class OrangePad : MonoBehaviour {
         }
         
     }
+
+    void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.CompareTag("RotateTrigger") || other.CompareTag("SolutionPad"))
+        {
+            float Distance = Vector3.Distance(this.gameObject.transform.position, other.gameObject.transform.position);
+            if (Distance <= 0.05)
+            {
+                this.transform.rotation = other.GetComponentInParent<Transform>().rotation;
+                this.transform.position = other.GetComponent<Transform>().position;
+            }
+        }
+    }
+
 }

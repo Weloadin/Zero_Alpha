@@ -1,0 +1,181 @@
+fileFormatVersion: 2
+guid: d1eaa5f6a4bafd749a9d738bbe97ce83
+timeCreated: 1465541809
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: RotatingPad
+    21300002: OrangePad
+    21300004: BluePad
+    21300006: Addition
+    21300008: GoalPad
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 512
+    textureFormat: -1
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: RotatingPad
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 388
+        width: 125
+        height: 105
+      alignment: 9
+      pivot: {x: 0.42265606, y: 0.495838}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.832008, y: 52.93701}
+        - {x: -52.83201, y: 29.937012}
+        - {x: -52.83201, y: -42.06299}
+        - {x: -27.832008, y: -52.06299}
+        - {x: 41.16799, y: -52.06299}
+        - {x: 72.16799, y: -20.062988}
+        - {x: 72.16799, y: 6.9370117}
+        - {x: 35.16799, y: 52.93701}
+      - - {x: -14.832008, y: -37.06299}
+        - {x: -13.832008, y: 36.93701}
+        - {x: 39.16799, y: -2.0629883}
+        - {x: 24.167992, y: -31.062988}
+      - - {x: -5.8320084, y: 10.937012}
+        - {x: -10.832008, y: 6.9370117}
+        - {x: -10.832008, y: -6.0629883}
+        - {x: -4.8320084, y: -11.062988}
+        - {x: 6.1679916, y: -11.062988}
+        - {x: 11.167992, y: -7.0629883}
+        - {x: 11.167992, y: 5.9370117}
+        - {x: 8.167992, y: 10.937012}
+    - name: OrangePad
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 388
+        width: 124
+        height: 105
+      alignment: 9
+      pivot: {x: 0.4226561, y: 0.495838}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.409363, y: 52.93701}
+        - {x: -34.409363, y: 46.93701}
+        - {x: -52.409363, y: 25.937012}
+        - {x: -52.409363, y: -29.062988}
+        - {x: -51.409363, y: -37.06299}
+        - {x: -24.409363, y: -52.06299}
+        - {x: 43.590637, y: -52.06299}
+        - {x: 71.59064, y: -6.0629883}
+        - {x: 71.59064, y: 17.937012}
+        - {x: 21.590637, y: 52.93701}
+    - name: BluePad
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 390
+        width: 124
+        height: 103
+      alignment: 9
+      pivot: {x: 0.4226561, y: 0.495838}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48.590637, y: 33.92868}
+        - {x: 22.590637, y: 51.92868}
+        - {x: -35.409363, y: 51.92868}
+        - {x: -52.409363, y: 31.92868}
+        - {x: -52.409363, y: -23.07132}
+        - {x: -38.409363, y: -49.07132}
+        - {x: -34.409363, y: -51.07132}
+        - {x: 40.590637, y: -51.07132}
+        - {x: 71.59064, y: -27.07132}
+        - {x: 71.59064, y: 5.9286804}
+        - {x: 69.59064, y: 6.9286804}
+    - name: Addition
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 284
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 30}
+        - {x: -30, y: 19}
+        - {x: -30, y: -25}
+        - {x: -21, y: -30}
+        - {x: 20, y: -30}
+        - {x: 30, y: -27}
+        - {x: 30, y: 24}
+        - {x: 29, y: 30}
+    - name: GoalPad
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 256
+        width: 125
+        height: 108
+      alignment: 9
+      pivot: {x: 0.4226561, y: 0.495838}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.167984, y: 53.449493}
+        - {x: -22.832016, y: 53.449493}
+        - {x: -51.832016, y: 40.449493}
+        - {x: -52.832016, y: 33.449493}
+        - {x: -52.832016, y: -50.550507}
+        - {x: -40.832016, y: -53.550507}
+        - {x: 44.167984, y: -53.550507}
+        - {x: 72.167984, y: -29.550507}
+        - {x: 72.167984, y: 14.449493}
+        - {x: 57.167984, y: 48.449493}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

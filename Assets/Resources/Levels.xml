@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="us-ascii"?>
+
+<Levels>
+
+  <Developer StartLevel="0" />
+  
+  <!--Level1-->
+  <Level>
+    <Item prefab="Orange Pad" x="-2.23" y="3.58" z="-1" GivenNumber="10" />
+    <Item prefab="Solution Pad" x="1.86" y="-0.25" z="-1" rot="90" SolutionNumber="2" />
+    <Item prefab="Rotating Pad" x="1.86" y="3.58" z="-1" rot="180" />
+    <Item prefab="Addition" x="1.86" y="1.72" />
+    <Item prefab="Goal Pad" x="-2.28" y="-0.26" GoalNumber="12" />
+    <Item prefab="Line" x="-2.5" y="3.57" z="1" StartX="0.4" EndX="4.3" />
+    <Item prefab="Line" x="1.86" y="3.97" z="1" rot="270" StartX="0.4" EndX="4.3" />
+    <Item prefab="Line" x="-2.5" y="-0.25" z="1" StartX="0.4" EndX="4.3" />
+  </Level>
+
+  <!--Level2-->
+ 
+
+  <!--Level3-->
+
+  
+
+
+</Levels>
